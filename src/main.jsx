@@ -12,7 +12,7 @@ import AppDetails from "./AppDetails.jsx";
 import NoAppFound from "./NoAppFound.jsx";
 import NothingFound from "./NothingFound.jsx";
 
-const AllAppData = fetch("data.json").then((res) => res.json());
+const AllAppData = fetch("/data.json").then((res) => res.json());
 const router = createBrowserRouter([
   {
     path: "/",

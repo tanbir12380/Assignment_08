@@ -10,7 +10,7 @@ const Install = () => {
   const [subloading, setsubLoading] = useState(true);
 
   useEffect(() => {
-    fetch("data.json")
+    fetch("/data.json")
       .then((res) => res.json())
       .then((res) => {
         setAllAppData(res);

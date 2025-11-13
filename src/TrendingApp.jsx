@@ -10,7 +10,7 @@ const TrendingApp = () => {
   useEffect(() => {
     setLoading(true);
 
-    fetch("data.json")
+    fetch("/data.json")
       .then((res) => res.json())
       .then((res) => {
         setAllAppData(res);
