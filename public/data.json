@@ -1,0 +1,363 @@
+[
+  {
+    "image": "/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Spotify turns your everyday moments into living soundscapes, offering millions of songs, podcasts, artist radios, and curated playlists crafted for every mood and milestone. Whether you're working out, traveling, studying, or drifting off to sleep, the platform adapts to you. With smart recommendations, collaborative playlists, offline listening, and seamless device syncing, Spotify becomes a personal soundtrack generator that grows with your taste.",
+    "size": 42,
+    "reviews": 245,
+    "ratingAvg": 4.7,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 2100000 },
+      { "name": "4 star", "count": 4300000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "id": 2,
+    "description": "Instagram lets you narrate your life through photos, reels, stories, and messages. From aesthetic snapshots to spontaneous videos, the platform helps you share your world in vibrant detail. Explore creators across the globe, discover trends, build communities, and express yourself visually. With tools for editing, reels creation, shopping, and messaging, it evolves into a creative playground where expression meets connection.",
+    "size": 52,
+    "reviews": 98,
+    "ratingAvg": 4.5,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 1900000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 8800000 },
+      { "name": "4 star", "count": 19000000 },
+      { "name": "5 star", "count": 65800000 }
+    ]
+  },
+  {
+    "image": "/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "id": 3,
+    "description": "Facebook is a digital town square where you connect with friends, family, communities, and global conversations. Share posts, join groups, discover events, buy and sell products, and follow pages that reflect your interests. The platform blends social interaction, entertainment, and utility into one ecosystem, becoming a hub for updates, memories, and community engagement across millions of people.",
+    "size": 60,
+    "reviews": 12,
+    "ratingAvg": 4.3,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 2700000 },
+      { "name": "2 star", "count": 3900000 },
+      { "name": "3 star", "count": 9200000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 83000000 }
+    ]
+  },
+  {
+    "image": "/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 4,
+    "description": "TikTok is a global stage for creativity powered by short, engaging videos that capture imagination in seconds. Whether it’s dance trends, comedy, life hacks, or storytelling, TikTok brings a mix of entertainment and discovery. Its algorithm curates content uniquely for you, while powerful editing tools, effects, and music help anyone create captivating videos and join viral movements in minutes.",
+    "size": 48,
+    "reviews": 41,
+    "ratingAvg": 4.6,
+    "downloads": 25,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 21900000 }
+    ]
+  },
+  {
+    "image": "/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 5,
+    "description": "Telegram offers lightning-fast messaging with advanced security and limitless cloud storage. Whether you're chatting one-on-one, joining massive groups, or managing channels with thousands of followers, Telegram keeps everything smooth and organized. It supports bots, file sharing up to 2 GB, cross-device syncing, and customizable themes, making it a power-packed communication platform for both casual users and communities.",
+    "size": 36,
+    "reviews": 9,
+    "ratingAvg": 4.4,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 310000 },
+      { "name": "2 star", "count": 420000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 4470000 }
+    ]
+  },
+  {
+    "image": "/whatsapp.png",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "id": 6,
+    "description": "WhatsApp enables instant communication through texts, voice messages, video calls, and group chats secured by end-to-end encryption. Share media, documents, statuses, and updates seamlessly, even on slow networks. With features like backups, communities, channels, and multi-device support, WhatsApp blends simplicity with reliability, becoming the everyday communication backbone for billions around the world.",
+    "size": 38,
+    "reviews": 17,
+    "ratingAvg": 4.7,
+    "downloads": 60,
+    "ratings": [
+      { "name": "1 star", "count": 2100000 },
+      { "name": "2 star", "count": 3400000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 38000000 },
+      { "name": "5 star", "count": 112000000 }
+    ]
+  },
+  {
+    "image": "/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 7,
+    "description": "Snapchat brings spontaneity to life with disappearing messages, quick photo sharing, and playful AR lenses. Capture moments as they happen, create streaks with friends, explore spotlight videos, and dive into interactive filters that turn everyday scenes into fun memories. Stories, Bitmojis, and private groups make Snapchat a lively place to express yourself without overthinking.",
+    "size": 51,
+    "reviews": 12,
+    "ratingAvg": 4.2,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 650000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 3700000 },
+      { "name": "5 star", "count": 5400000 }
+    ]
+  },
+  {
+    "image": "/twitter.png",
+    "title": "Twitter",
+    "companyName": "X Corp.",
+    "id": 8,
+    "description": "FTwitter delivers real-time conversations from every corner of the world, turning thoughts, news, jokes, and opinions into fast-moving threads. Follow trending topics, engage with creators, share media, and discover ideas the moment they surface. Its mix of brevity, speed, and global reach creates a dynamic platform where discussions evolve instantly and every voice can spark a wave.",
+    "size": 44,
+    "reviews": 21,
+    "ratingAvg": 4.1,
+    "downloads": 14,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2600000 },
+      { "name": "4 star", "count": 4800000 },
+      { "name": "5 star", "count": 11500000 }
+    ]
+  },
+  {
+    "image": "/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "YouTube is the world’s video library, offering everything from music and movies to tutorials, documentaries, vlogs, and livestreams. Subscribe to creators, build playlists, explore recommendations tailored to your interests, and learn anything you imagine. Its powerful search engine, comment communities, and offline features make YouTube both an entertainment hub and a global learning space.",
+    "size": 70,
+    "reviews": 14,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 2400000 },
+      { "name": "2 star", "count": 3100000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 26000000 },
+      { "name": "5 star", "count": 99500000 }
+    ]
+  },
+  {
+    "image": "/google-maps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Google Maps guides your journeys with real-time navigation, accurate traffic updates, public transit details, and intelligent routing. Explore nearby restaurants, gas stations, landmarks, and hidden gems through reviews and photos shared by millions. Whether you're driving, walking, or commuting, Maps offers precise directions and location insights that make travel smooth and informed.",
+    "size": 62,
+    "reviews": 10,
+    "ratingAvg": 4.5,
+    "downloads": 70,
+    "ratings": [
+      { "name": "1 star", "count": 1700000 },
+      { "name": "2 star", "count": 2400000 },
+      { "name": "3 star", "count": 8600000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 71600000 }
+    ]
+  },
+
+  {
+    "image": "/gmail.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Gmail organizes your emails into a smart, manageable inbox equipped with filters, categories, and powerful search tools. With integrated security, spam protection, attachments preview, and seamless syncing across devices, it simplifies communication for work and personal use. The app also connects with Google Workspace, keeping your mail, calendar, and files accessible and efficient.",
+    "size": 34,
+    "reviews": 50,
+    "ratingAvg": 4.6,
+    "downloads": 80,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1700000 },
+      { "name": "3 star", "count": 5200000 },
+      { "name": "4 star", "count": 16000000 },
+      { "name": "5 star", "count": 31100000 }
+    ]
+  },
+  {
+    "image": "/chrome.png",
+    "title": "Chrome",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Chrome delivers fast, secure browsing with synced tabs, password management, and smart autofill across devices. Enjoy smooth web experiences, personalized suggestions, and incognito privacy when needed. With download management, translation tools, and integration with your Google account, Chrome becomes a flexible mobile browser crafted for performance and convenience.",
+    "size": 85,
+    "reviews": 99,
+    "ratingAvg": 4.3,
+    "downloads": 90,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2800000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 24000000 },
+      { "name": "5 star", "count": 60200000 }
+    ]
+  },
+  {
+    "image": "/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 13,
+    "description": "Zoom provides reliable video communication for work, school, and personal chats with clear audio and stable connections. Host meetings, attend classes, collaborate through screen sharing, chat in real time, and join virtual rooms with ease. Its simple interface and cross-platform compatibility make it essential for remote teamwork and long-distance communication.",
+    "size": 90,
+    "reviews": 14,
+    "ratingAvg": 4.4,
+    "downloads": 60,
+    "ratings": [
+      { "name": "1 star", "count": 290000 },
+      { "name": "2 star", "count": 410000 },
+      { "name": "3 star", "count": 860000 },
+      { "name": "4 star", "count": 2300000 },
+      { "name": "5 star", "count": 10300000 }
+    ]
+  },
+  {
+    "image": "/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 14,
+    "description": "Netflix delivers a massive world of entertainment with movies, series, anime, documentaries, and originals spanning every genre. Enjoy personalized recommendations, downloads for offline viewing, multiple profiles, and high-quality streaming on any device. Whether you're binge-watching a show or discovering new titles, Netflix turns free time into immersive storytelling moments.",
+    "size": 120,
+    "reviews": 83,
+    "ratingAvg": 4.6,
+    "downloads": 31,
+    "ratings": [
+      { "name": "1 star", "count": 1100000 },
+      { "name": "2 star", "count": 1800000 },
+      { "name": "3 star", "count": 7400000 },
+      { "name": "4 star", "count": 19000000 },
+      { "name": "5 star", "count": 53600000 }
+    ]
+  },
+  {
+    "image": "/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 15,
+    "description": "Amazon Shopping brings convenience to your fingertips with millions of products, fast delivery options, and secure checkout. Browse deals, track orders, compare prices, and explore categories ranging from electronics to groceries. With user reviews, wishlists, and personalized suggestions, Amazon transforms everyday shopping into a smoother, smarter experience.",
+    "size": 68,
+    "reviews": 31,
+    "ratingAvg": 4.5,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 430000 },
+      { "name": "2 star", "count": 720000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 7400000 },
+      { "name": "5 star", "count": 20700000 }
+    ]
+  },
+  {
+    "image": "/ubereats.png",
+    "title": "Uber Eats",
+    "companyName": "Uber Technologies",
+    "id": 16,
+    "description": "Uber Eats lets you explore nearby restaurants and enjoy food delivered straight to your door. Discover menus, track orders live, customize meals, and enjoy contactless delivery anytime. With thousands of partners and user-friendly features, it offers a quick, reliable way to satisfy cravings and support local businesses with ease.",
+    "size": 55,
+    "reviews": 16,
+    "ratingAvg": 4.2,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 450000 },
+      { "name": "3 star", "count": 2100000 },
+      { "name": "4 star", "count": 4600000 },
+      { "name": "5 star", "count": 9200000 }
+    ]
+  },
+  {
+    "image": "/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "id": 17,
+    "description": "Uber makes commuting effortless with fast ride booking, real-time tracking, reliable drivers, and transparent pricing. Whether it's daily travel, airport trips, or late-night rides, Uber ensures comfort and safety. Multiple vehicle categories, cashless payments, and estimated arrival times turn city travel into a smoother, more predictable experience.",
+    "size": 49,
+    "reviews": 37,
+    "ratingAvg": 4.4,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 3900000 },
+      { "name": "4 star", "count": 9100000 },
+      { "name": "5 star", "count": 21800000 }
+    ]
+  },
+  {
+    "image": "/foodpanda.png",
+    "title": "Foodpanda",
+    "companyName": "Delivery Hero",
+    "id": 18,
+    "description": "Foodpanda delivers restaurant meals, groceries, and essentials with speed and convenience. Choose from local favorites, explore offers, customize dishes, and track deliveries in real time. For groceries, the app brings fresh items to your doorstep through quick commerce partners. It’s built for days when cooking isn’t an option and time is precious.",
+    "size": 44,
+    "reviews": 90,
+    "ratingAvg": 4.1,
+    "downloads": 70,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 270000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 5980000 }
+    ]
+  },
+  {
+    "image": "/bikroy.png",
+    "title": "Bikroy",
+    "companyName": "Saltside",
+    "id": 19,
+    "description": "Bikroy enables buyers and sellers across Bangladesh to connect easily through listings for electronics, vehicles, property, and everyday goods. Post ads with photos, chat securely, negotiate prices, and close deals without hassle. With a massive user base and location-based search, Bikroy creates a trusted digital marketplace for simple and fast trading.",
+    "size": 26,
+    "reviews": 30,
+    "ratingAvg": 4.3,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1799999 }
+    ]
+  },
+  {
+    "image": "/imo.png",
+    "title": "imo",
+    "companyName": "imo.im",
+    "id": 20,
+    "description": "imo provides fast, high-quality international audio and video calls ideal for families and friends staying connected across distances. Share messages, photos, and stories while enjoying clear communication even on low-speed networks. With lightweight performance, group calls, and privacy features, imo becomes a reliable bridge between loved ones.",
+    "size": 30,
+    "reviews": 21,
+    "ratingAvg": 4.5,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 220000 },
+      { "name": "2 star", "count": 310000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 4800000 },
+      { "name": "5 star", "count": 14800000 }
+    ]
+  }
+]

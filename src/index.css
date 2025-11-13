@@ -1,2 +1,759 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+body {
+  background-color: rgb(234, 234, 234);
+}
+
+/* Nav section */
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 80px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.208);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.nav-title h3 {
+  font-weight: 700;
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  background: linear-gradient(
+    125.07deg,
+    rgba(99, 46, 227, 1),
+    rgba(159, 98, 242, 1)
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-links nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links nav a {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+  transition: all 0.2s ease-in-out;
+}
+
+a.active {
+  background: linear-gradient(
+    125.07deg,
+    rgba(99, 46, 227, 1),
+    rgba(159, 98, 242, 1)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  text-decoration: underline;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+a.active::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    125.07deg,
+    rgba(99, 46, 227, 1),
+    rgba(159, 98, 242, 1)
+  );
+  border-radius: 8px;
+}
+
+.nav-right a button {
+  cursor: pointer;
+}
+
+.nav-right a {
+  position: relative;
+  background: linear-gradient(
+    125.07deg,
+    rgba(99, 46, 227, 1),
+    rgba(159, 98, 242, 1)
+  );
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.nav-right a:hover {
+  transform: scale(1.05);
+}
+
+/*  Footer  */
+
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  width: 100%;
+  padding: 50px 20px 20px 20px;
+  font-family: "Inter";
+  display: block;
+  padding: 1px 80px 0px 80px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 80px auto 40px auto;
+  gap: 40px;
+}
+
+#first-section-foot {
+  width: 600px !important;
+}
+
+.company-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: blueviolet;
+}
+
+.company-description {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center !important;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  color: #777;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+
+.footer-bottom p {
+  display: inline-block;
+}
+
+/* banner */
+
+.banner-details {
+  color: rgb(98, 115, 130);
+  font-family: "Inter";
+  font-size: "20px";
+  font-weight: "400";
+  text-align: center;
+}
+
+.banner-button {
+  width: 180px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10;
+  padding: 12px 24px 12px 24px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 25, 49, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.banner-button:hover {
+  background: blueviolet;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.banner-button button {
+  cursor: pointer;
+}
+
+/* trust state section */
+
+.trusted-container {
+  height: 410px;
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background: linear-gradient(
+    125.07deg,
+    rgba(99, 46, 227, 1),
+    rgba(159, 98, 242, 1)
+  );
+}
+
+.trusted-title {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+}
+
+.trusted-card {
+  width: 260px;
+  padding: 20px;
+  text-align: center;
+}
+
+.trusted-label {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.trusted-value {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter";
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.trusted-sub {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Trending apps */
+
+.trending {
+  width: calc(100% - 160px);
+  margin: 80px auto 80px auto;
+  text-align: center;
+}
+
+.showAll-btn {
+  width: 145px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 12px 16px 12px 16px;
+  border-radius: 4px;
+  background: linear-gradient(
+    125.07deg,
+    rgba(99, 46, 227, 1),
+    rgba(159, 98, 242, 1)
+  );
+  display: inline-block;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  transition: transform 0.5s ease;
+}
+
+.showAll-btn:hover {
+  transform: scale(1.05);
+}
+
+.trending-title {
+  color: rgba(0, 25, 49, 1);
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.trending-subtitle {
+  color: rgba(98, 115, 130, 1);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.trending-wrapper {
+  margin-top: 40px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.app-card {
+  width: 100%;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 6px 26px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.5s ease;
+}
+
+.app-card:hover {
+  background-color: #fffee4;
+  transform: translateY(-5px) scale(1.02);
+}
+
+.app-card-img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #f2f6fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.app-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-card-name {
+  color: rgba(0, 25, 49, 1);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block !important;
+  margin-top: 20px;
+}
+
+.app-card-stats {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.stat-btn1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px 6px 10px;
+  border-radius: 4px;
+  background: rgba(241, 245, 232, 1);
+  color: rgba(0, 211, 144, 1);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.stat-btn1 img,
+.stat-btn2 img {
+  width: 16px;
+  height: 16px;
+}
+
+.stat-btn2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px 6px 10px;
+  border-radius: 4px;
+  background: rgba(255, 240, 225, 1);
+  color: rgba(255, 136, 17, 1);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.stat-btn:hover {
+  background: #d2e8ff;
+}
+
+.AllAppSearch:focus {
+  border: 0px;
+  outline: 0px;
+}
+
+.AppDetails-states img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.AppDetails-states p {
+  color: rgba(0, 25, 49, 1);
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.AppDetails-states h5 {
+  color: rgba(0, 25, 49, 1);
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.AppDetails-states {
+  gap: 30px;
+}
+
+.AppDetails-states > div {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AppDetails-button {
+  padding: 14px 20px 14px 20px;
+  border-radius: 4px;
+  background: rgba(0, 211, 144, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.AppDetails-button:hover {
+  transform: scale(1.05);
+}
+
+.disabled {
+  background-color: rgb(149, 255, 221);
+  color: black;
+  cursor: default;
+}
+
+.disabled:hover {
+  transform: scale(1) !important;
+}
+
+.unistall-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 12px 16px 12px 16px;
+  border-radius: 4px;
+  background: rgba(0, 211, 144, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+.unistall-btn:hover {
+  background: rgba(0, 190, 130, 1);
+  transform: scale(1.05);
+}
+
+#root1 {
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+@media (max-width: 1300px) {
+  .trending-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+
+  .trending {
+    width: 90%;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .trending-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .installedApps-search-count {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 10px;
+    margin-bottom: 40px !important;
+    margin-top: 40px !important;
+  }
+
+  .trending {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  #first-section-foot {
+    width: 100% !important;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 16px 20px !important;
+  }
+
+  .nav-links {
+    width: 60%;
+  }
+
+  .nav-links nav {
+    justify-content: space-between;
+  }
+
+  .nav-title h3 {
+    font-size: 35px;
+  }
+
+  .banner-container-class {
+    margin: 40px auto 0px auto !important;
+    width: 95% !important;
+    height: auto !important;
+    padding-bottom: 220px !important;
+    background-size: 95% auto !important;
+  }
+
+  .banner-container-class-pro {
+    height: auto !important;
+  }
+
+  .banner-container-class h2 {
+    line-height: 60px;
+    font-size: 60px !important;
+    font-weight: 700 !important;
+    margin-bottom: 30px;
+  }
+
+  #productiveSpan {
+    background: linear-gradient(
+      125.07deg,
+      rgba(99, 46, 227, 1),
+      rgba(159, 98, 242, 1)
+    ) !important;
+    background-clip: text !important;
+    color: transparent !important;
+  }
+
+  .trusted-title {
+    font-size: 30px !important;
+  }
+
+  .trusted-value {
+    font-size: 35px !important;
+  }
+
+  .card-container {
+    flex-wrap: wrap;
+    gap: 1px !important;
+  }
+  .trusted-container {
+    height: auto;
+    gap: 1px !important;
+    padding: 25px 0px 15px 0px !important;
+  }
+
+  .trending-title {
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .AllAppSearchAndCount {
+    margin-top: 25px;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 10px;
+  }
+
+  .installedAppsShower {
+    width: 90% !important;
+    margin: 10px auto !important;
+  }
+
+  .singleInstallApps {
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+  }
+
+  .singleInstallAppsImg img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .singleInstallApps div div h5 {
+    text-align: center;
+  }
+
+  .singleInstallApps > div {
+    gap: 10px;
+  }
+  .singleInstallApps > div > div > div p {
+    background-color: rgba(241, 245, 232, 1);
+    line-height: 30px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: rgba(0, 211, 144, 1) !important;
+    font-weight: 600 !important;
+  }
+
+  .AppDetailsShowePro {
+    width: 95% !important;
+    margin: 40px auto !important;
+  }
+  .AppDetailsShowePro > div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .AppDetailsAndStates {
+    flex-direction: column;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  .AppDetailsAndStates > div {
+    text-align: center;
+  }
+  .AppDetails-states {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .AppDetails-button {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .nav-links nav {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  .nav-right a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.temp-btn:active {
+  background-color: rgb(181, 181, 181);
+}
+
+.temp-btn {
+  width: 145px;
+  height: 40px;
+  display: block;
+}
